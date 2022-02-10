@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'aks-agentpool'
+  name: 'akspool'
 
 steps:
 - task: Docker@2
