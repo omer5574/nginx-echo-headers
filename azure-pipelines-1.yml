@@ -20,7 +20,7 @@ steps:
 - task: Kubernetes@1
   inputs:
     connectionType: 'Azure Resource Manager'
-    azureSubscriptionEndpoint: '9135e0b2-cfff-4136-bbbf-9c7428c2ba41'
+    azureSubscriptionEndpoint: 'arm-sc'
     azureResourceGroup: 'aks-rg'
     kubernetesCluster: 'aks-test'
     command: 'apply'
